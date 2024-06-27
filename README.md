@@ -1,10 +1,6 @@
 # AirBnb-Bookings-Analysis-Exploratory-Data-Analysis Skip to main content
 
 Project Name - AirBnb Bookings Analysis Exploratory Data Analysis
-Project Type - EDA
-Contribution - Individual-Ashvini Gabhane
-Project Summary -
-download.jpg
 
 The Airbnb Data Analysis project focuses on Airbnb's extensive dataset since 2008, covering 48,895 observations in 16 columns. It aims to gain insights into user behavior, enhance security, inform business decisions, refine marketing strategies, improve the user experience, and identify regional trends for global expansion. This project harnesses data to benefit Airbnb and enrich the experiences of millions of travelers and hosts.
 
@@ -101,6 +97,8 @@ print(dataset.isnull().sum())
 [ ]
 # Visualizing the missing values
 sns.heatmap(dataset.isnull(), cbar=False , cmap='viridis')
+
+
 What did you know about your dataset?
 The Airbnb dataset, consisting of around 48,895 observations and 16 columns, is a valuable resource for data analysis. It contains a mix of both categorical and numeric data. This dataset helps them make informed decisions regarding security, business strategies, customer and host behavior, and platform performance. Through this data, I understand the gains insights that guide marketing efforts, the development of new services, and more. It is a rich source of information for understanding and optimizing the Airbnb experience for both guests and hosts, contributing to the global recognition of Airbnb as a unique and personalized travel service since 2008.
 
